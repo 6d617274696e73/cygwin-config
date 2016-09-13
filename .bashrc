@@ -197,6 +197,8 @@ fi
 # 
 # 
 
+ PATH=$HOME/bin:$PATH
+
 
 eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 
